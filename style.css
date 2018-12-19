@@ -1,7 +1,6 @@
 .wrapper {
     max-width: 750px;
     margin: 0 auto;
-
 }
 
 .header {
@@ -144,4 +143,19 @@ a {
 
 .button:hover {
     background-color: #f9f5f5;
+}
+
+@media only screen and (max-width: 600px) {
+  .bar 
+  {
+    width: 68%;
+  }
+  .header:after
+  {
+  	margin-left:-10px;
+  }
+  .button
+  {
+  	font-size: 15px;
+  }
 }
