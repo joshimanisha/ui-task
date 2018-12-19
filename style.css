@@ -135,6 +135,10 @@ p
 .orange-text {
 	color: #f15e34;
 }
+a
+{
+	text-decoration: none;
+}
 #tag
 {
 	color: #59a7d2;
