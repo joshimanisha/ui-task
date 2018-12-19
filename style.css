@@ -13,7 +13,7 @@
     color: #ededed;
     text-align: center;
     border-radius: 5px;
-    font-size: 20px;
+    /*font-size: 15px;*/
     border: 1px solid #efefef;
 }
 
@@ -70,9 +70,9 @@
 
 label {
     position: absolute;
-    line-height: 50px;
-    margin-left: 10px;
-    font-size: 18px;
+    line-height: 45px;
+    margin-left: 15px;
+    font-size: 20px;
     color: #797979;
 }
 
@@ -81,7 +81,9 @@ input {
     height: 44px;
     border-radius: 3px;
     text-align: center;
-
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
 }
 
 button {
@@ -127,7 +129,7 @@ a {
 .button {
     border: 1px solid #ddd;
     border-bottom: 2px solid #ddd;
-    height: 50px;
+    min-height: 50px;
     width: 48%;
     background-color: #fafafa;
     color: #797979;
